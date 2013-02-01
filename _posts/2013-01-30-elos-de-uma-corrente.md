@@ -5,7 +5,7 @@ title: Elos de Uma Corrente
 
 Na discussão do por quê da promiscuidade masculina ser valorizada e a feminina ser condenada, às vezes usa-se o seguinte argumento:
 
-  Uma chave que abre vários cadeados é uma boa chave; no entanto, um cadeado que é aberto por várias chaves é um mal cadeado.
+> Uma chave que abre vários cadeados é uma boa chave; no entanto, um cadeado que é aberto por várias chaves é um mal cadeado.
 
 Portanto, faz sentido que homens tenham valor em "abrir" várias mulheres e que as mulheres tenham muito afinco em manter-se fechadas, certo? E todos do grupo vão acenar em concordância, pois agora compreenderam e resumiram a complexidade da sexualidade humana em uma lógica curta e eficaz.
 
