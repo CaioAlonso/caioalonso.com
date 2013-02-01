@@ -1,9 +1,17 @@
+body {
+  font-family: "Gentium Basic", Georgia, serif; }
+
 p {
-  font: 16px/1.6667em Merriweather, Georgia, "Times New Roman", "Hoefler Text"; }
+  font: 1.313em/1.6667em "Gentium Basic", Georgia, serif;
+  color: #333; }
 
 div.wrapper {
   margin: 0 auto;
-  width: 600px; }
+  width: 100%; }
 
 h1, a.email {
   display: inline; }
+
+@media only screen and (min-width: 662px) {
+  div.wrapper {
+    width: 662px; } }

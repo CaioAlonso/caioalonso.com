@@ -1,12 +1,23 @@
-p {
-  font: 16px/1.6667em Merriweather,Georgia,'Times New Roman','Hoefler Text';
+$azul: #18B8DB;
+
+body {
+  margin-top:1em;
+  font: 1.313em/1.5em 'Gentium Basic', Georgia, serif;
+  color:#333;
+  text-rendering:optimizeLegibility
 }
 
 div.wrapper {
   margin: 0 auto;
-  width:600px;
+  width:100%;
 }
 
 h1, a.email {
   display:inline;
+}
+
+@media only screen and (min-width: 662px) {
+  div.wrapper {
+    width:662px;
+  }
 }
