@@ -26,7 +26,4 @@ tinha Internet disponível 24 horas, o que poucas dessas pessoas possuem.
 
 - Os [anúncios de conexões mais rápidas](https://fiber.google.com/about/) de repente ficaram insignificantes.
 
-Não posso ser tolo o suficiente em afirmar que ninguém precisa de uma
-determinado recurso ou velocidade, já que isso seria ignorar a história recente.
-Mas impor limites arbitrários me fez questionar a necessidade de certas
-facilidades que já me acostumei.
+Não posso ser tolo o suficiente em afirmar que ninguém precisa de um determinado recurso ou velocidade, já que isso seria ignorar a história recente.  Mas impor limites arbitrários me fez questionar a necessidade de certas facilidades que já me acostumei.
