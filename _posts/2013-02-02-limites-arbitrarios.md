@@ -10,7 +10,7 @@ Aqui estão algumas observações que fiz, em nenhuma ordem particular:
 
 - Logo de cara é possível notar quais sites foram feitos pensando em condições de velocidade precárias. Alguns sites (Google, principalmente) continuaram a carregar normalmente (depois de ter a maioria dos recursos no cache, claro).
   
-  Já outros mostravam que foram feitos apenas para um público com acesso a conexões mais rápidas, pois se tornavam impossíveis de acessar
+  Já outros mostravam que foram feitos apenas para um público com acesso a conexões mais rápidas, pois se tornavam impossíveis de acessar.
 
 - Cada requisição HTTP não mais era acompanhada de um fluxo de informações instantâneo, mas permitia breves momentos de consideração: "Quero *mesmo* ver isso? Isso é necessário?". Quaisquer impulsos são barrados e têm a chance de serem vistos e capturados a tempo.
 
