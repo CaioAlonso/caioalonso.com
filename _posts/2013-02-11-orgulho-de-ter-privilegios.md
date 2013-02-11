@@ -3,7 +3,7 @@ layout: post
 title: Orgulho de ter Privilégios
 ---
 
-O problema na afirmação de ter [orgulho em ser heterossexual](https://www.facebook.com/OrgulhoHetero.Brasil) está na ilusão de equivalência com o orgulho em ser homossexual. Enquanto a bandeira arco-íris carrega uma estratégia defensiva que tem como objetivo a correção de um estereótipo negativo, afirmações de orgulho em estar na maioria heterossexual, por mais suaves e inofensivas que possam ser, servem para mascarar e perpetuar o privilégio de um grupo sobre outro. 
+O problema na afirmação de ter [orgulho em ser heterossexual](https://www.facebook.com/OrgulhoHetero.Brasil) está na ilusão de equivalência com o orgulho em ser homossexual. Enquanto a bandeira arco-íris carrega uma estratégia defensiva que tem como objetivo a correção de um estereótipo negativo, afirmações de orgulho em estar na maioria heterossexual, mesmo as mais suaves e inofensivas que possam ser, servem para mascarar e perpetuar o privilégio de um grupo sobre outro. 
 
 Ao ignorar o contexto histórico, 628 mil membros desta página se esquecem do passado (e presente) de opressão e violência e celebram sua heterossexualidade. Tem que se esforçar muito pra ser heterossexual hoje em dia.
 
