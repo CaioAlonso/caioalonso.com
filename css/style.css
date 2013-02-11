@@ -1,9 +1,8 @@
 body {
-  font-family: "Gentium Basic", Georgia, serif; }
-
-p {
-  font: 1.313em/1.6667em "Gentium Basic", Georgia, serif;
-  color: #333; }
+  margin-top: 1em;
+  font: 1.313em/1.5em "Gentium Basic", Georgia, serif;
+  color: #333;
+  text-rendering: optimizeLegibility; }
 
 div.wrapper {
   margin: 0 auto;
@@ -11,6 +10,9 @@ div.wrapper {
 
 h1, a.email {
   display: inline; }
+
+img {
+  width: 100%; }
 
 @media only screen and (min-width: 662px) {
   div.wrapper {
