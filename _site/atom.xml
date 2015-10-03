@@ -4,114 +4,13 @@
   <title>Caio Alonso</title>
   <link href="http://caioalon.so/"/>
   <link type="application/atom+xml" rel="self" href="http://caioalon.so/atom.xml"/>
-  <updated>2013-02-17T10:26:15-03:00</updated>
+  <updated>2015-10-03T20:35:53-03:00</updated>
   <id>http://caioalon.so/</id>
   <author>
     <name>Caio Alonso</name>
     <email>caio@caioalon.so</email>
   </author>
 
-  
-  <entry>
-    <id>http://caioalon.so/2013/02/11/orgulho-de-ter-privilegios</id>
-    <link type="text/html" rel="alternate" href="http://caioalon.so/2013/02/11/orgulho-de-ter-privilegios.html"/>
-    <title>Orgulho de ter Privilégios</title>
-    <published>2013-02-11T00:00:00-02:00</published>
-    <updated>2013-02-11T00:00:00-02:00</updated>
-    <author>
-      <name>Your Name</name>
-      <uri>http://caioalon.so/</uri>
-    </author>
-    <content type="html">&lt;p&gt;O problema na afirmação de ter &lt;a href='https://www.facebook.com/OrgulhoHetero.Brasil'&gt;orgulho em ser heterossexual&lt;/a&gt; está na ilusão de equivalência com o orgulho em ser homossexual. Enquanto a bandeira arco-íris carrega uma estratégia defensiva que tem como objetivo a correção de um estereótipo negativo, afirmações de orgulho em estar na maioria heterossexual, mesmo as mais suaves e inofensivas que possam ser, servem para mascarar e perpetuar o privilégio de um grupo sobre outro.&lt;/p&gt;
-
-&lt;p&gt;Ao ignorar o contexto histórico, 628 mil membros desta página se esquecem do passado (e presente) de opressão e violência e celebram sua heterossexualidade. Tem que se esforçar muito pra ser heterossexual hoje em dia.&lt;/p&gt;
-
-&lt;p&gt;Mas o que proclamam nesta página não é apenas o orgulho em ter uma orientação sexual. Logo ao acessarmos, notamos que a página deveria ser renomeada para &lt;em&gt;Orgulho de ser Homem, Branco e Heterossexual&lt;/em&gt;. No meio de fotos de bundas femininas, encontramos exemplos de:&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt='Homofobia' src='https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-snc6/282690_490641360999891_854337734_n.jpg' /&gt; Homofobia&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt='Machismo' src='https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash4/307305_488488424548518_99221817_n.jpg' /&gt; Machismo&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt='' src='https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-prn1/541461_486160468114647_68131356_n.jpg' /&gt; E a apologia à burrice geral, o que não é de se espantar&lt;/p&gt;
-
-&lt;p&gt;Se isso é ser heterossexual, prefiro ser gay.&lt;/p&gt;</content>
-  </entry>
-  
-  <entry>
-    <id>http://caioalon.so/2013/02/02/limites-arbitrarios</id>
-    <link type="text/html" rel="alternate" href="http://caioalon.so/2013/02/02/limites-arbitrarios.html"/>
-    <title>Limites Arbitrários</title>
-    <published>2013-02-02T00:00:00-02:00</published>
-    <updated>2013-02-02T00:00:00-02:00</updated>
-    <author>
-      <name>Your Name</name>
-      <uri>http://caioalon.so/</uri>
-    </author>
-    <content type="html">&lt;p&gt;Há um tempo atrás resolvi fazer um experimento (ou era só nostalgia?) e limitar a velocidade da minha Internet em 56kbps, exatamente como era dez anos atrás.&lt;/p&gt;
-
-&lt;p&gt;Aqui estão algumas observações que fiz, em nenhuma ordem particular:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Logo de cara é possível notar quais sites foram feitos pensando em condições de velocidade precárias. Alguns sites (Google, principalmente) continuaram a carregar normalmente (depois de ter a maioria dos recursos no cache, claro).&lt;/p&gt;
-
-&lt;p&gt;Já outros mostravam que foram feitos apenas para um público com acesso a conexões mais rápidas, pois se tornavam impossíveis de acessar.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Cada requisição HTTP não mais era acompanhada de um fluxo de informações instantâneo, mas permitia breves momentos de consideração: &amp;#8220;Quero &lt;em&gt;mesmo&lt;/em&gt; ver isso? Isso é necessário?&amp;#8221;. Quaisquer impulsos são barrados e têm a chance de serem vistos e capturados a tempo.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Sem YouTube, o que pode ser bom ou ruim, dependendo do momento.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Mesmo tendo uma conexão agora dez vezes mais lenta, vi minha produtividade subir. Operações que agora seriam dez vezes mais demoradas eram planejadas com antecedência e as distrações desapareceram.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Milhões de pessoas, principalmente em países fora do eixo EUA-Europa Ocidental-Japão ainda usam conexões &amp;#8220;lentas&amp;#8221; quando comparadas às dos países ricos. Imagine que, mesmo conectadas à mesma rede que os mais abastados, estas pessoas nunca poderão acessar recursos que tomamos como garantidos. E eu ainda tinha Internet disponível 24 horas, o que poucas dessas pessoas possuem.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Os &lt;a href='https://fiber.google.com/about/'&gt;anúncios de conexões mais rápidas&lt;/a&gt; de repente ficaram insignificantes.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Não posso ser tolo o suficiente em afirmar que ninguém precisa de um determinado recurso ou velocidade, já que isso seria ignorar a história recente. Mas impor limites arbitrários me fez questionar a necessidade de certas facilidades que já me acostumei.&lt;/p&gt;</content>
-  </entry>
-  
-  <entry>
-    <id>http://caioalon.so/2013/01/30/elos-de-uma-corrente</id>
-    <link type="text/html" rel="alternate" href="http://caioalon.so/2013/01/30/elos-de-uma-corrente.html"/>
-    <title>Elos de Uma Corrente</title>
-    <published>2013-01-30T00:00:00-02:00</published>
-    <updated>2013-01-30T00:00:00-02:00</updated>
-    <author>
-      <name>Your Name</name>
-      <uri>http://caioalon.so/</uri>
-    </author>
-    <content type="html">&lt;p&gt;Na discussão do por quê da promiscuidade masculina ser valorizada e a feminina ser condenada, às vezes usa-se o seguinte argumento:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Uma chave que abre vários cadeados é uma boa chave; no entanto, um cadeado que é aberto por várias chaves é um mal cadeado.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Portanto, faz sentido que homens tenham valor em &amp;#8220;abrir&amp;#8221; várias mulheres e que as mulheres tenham muito afinco em manter-se fechadas, certo? E todos do grupo vão acenar em concordância, pois agora compreenderam e resumiram a complexidade da sexualidade humana em uma lógica curta e eficaz.&lt;/p&gt;
-
-&lt;p&gt;Só que pessoas não são chaves e cadeados, o que faz dessa lógica uma analogia: um atalho do entendimento que pega a compreensão de um assunto já familiar como guia para auxiliar na caminhada em um tema novo. Analogias são ótimas para o aprendizado, mas possuem uma vida útil curtíssima.&lt;/p&gt;
-
-&lt;p&gt;Antes do conceito de prevenção de gravidez, se uma mulher fizesse sexo frequentemente com pessoas diversas, inevitavelmente engravidaria e seria a única pessoa responsável pela criação da criança que estaria para nascer. Já o homem, se copulasse com diversas mulheres não teria nenhum prejuízo, afinal não engravidaria de ninguém e apenas aproveitaria a experiência. A diferença entre o custo potencial do sexo inconsequente é muito grande entre os dois gêneros. A analogia do cadeado faz total sentido nesse contexto e uma mulher deve segui-la caso queira ter chances de uma boa vida. Mulheres são cadeados e homens são chaves.&lt;/p&gt;
-
-&lt;p&gt;Cria-se então uma diferença de valores na atividade do sexo; o homem que conseguir transar com outras mulheres sem ficar preso em um compromisso matrimonial é visto como um herói hedonista, que consegue vencer as pressões sociais para satisfazer sua vontade de carne. Já a mulher, infelizmente, fica presa à necessidade de guardar sua virgindade como evidência de que nunca foi &amp;#8220;usada&amp;#8221;, e caso fique conhecido o fato de que fez sexo fora do casamento, será vista como um mau exemplo para o resto da sociedade, uma pessoa suja e inferior.&lt;/p&gt;
-
-&lt;p&gt;A partir do instante que a pílula e outros métodos contraceptivos surgem, o perigo iminente de engravidar ao experimentar do prazer sexual desaparece. Imaginamos que agora ambos os sexos possam efetivamente atingir igual colocação neste sentido e experimentar o que quiserem, certo?&lt;/p&gt;
-
-&lt;p&gt;Aqui é onde o prazo de validade de nossa analogia vence, e ela se torna podre e fétida. O que antes era apenas uma forma de facilitar o entendimento passa a ser o guia definitivo de como homens e mulheres devem fazer sexo. O mapa desatualizado passa a ser confundido com o território, e mesmo sem haver mais alguma conexão com o assunto sendo tratado, a analogia continua sendo levada a sério.&lt;/p&gt;
-
-&lt;p&gt;Mulheres não são cadeados e homens não são chaves. A anatomia humana facilita esta comparação mas é só até aí que as semelhanças vão. Talvez devamos chamá-los agora apenas de elos de uma corrente. Interdependentes e iguais.&lt;/p&gt;</content>
-  </entry>
   
  
 </feed>
