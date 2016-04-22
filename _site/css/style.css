@@ -1,53 +1,46 @@
-/* line 3, /home/caio/dev/caioalonso.com/css/style.scss */
 body {
-  margin-top: 1em;
+  margin-top:1em;
   font: 1.313em/1.5em Georgia, serif;
-  color: #333;
-  text-rendering: optimizeLegibility;
+  color:#333;
+  text-rendering:optimizeLegibility
 }
 
-/* line 10, /home/caio/dev/caioalonso.com/css/style.scss */
 div.wrapper {
   margin: 0 5%;
-  width: 90%;
+  width:90%;
 }
 
-/* line 15, /home/caio/dev/caioalonso.com/css/style.scss */
 h1 {
-  font-size: 26px;
+  font-size:26px;
 }
 
-/* line 19, /home/caio/dev/caioalonso.com/css/style.scss */
 a.email {
-  font-size: 16px;
+  font-size:16px;
 }
 
-/* line 23, /home/caio/dev/caioalonso.com/css/style.scss */
 h1, a.email {
-  display: inline;
+  display:inline;
 }
 
-/* line 27, /home/caio/dev/caioalonso.com/css/style.scss */
 img {
-  width: 100%;
+  width:100%;
 }
 
-/* line 31, /home/caio/dev/caioalonso.com/css/style.scss */
 ul.posts {
-  list-style: none;
-  padding: 0;
+  list-style:none;
+  padding:0;
+
 }
-/* line 35, /home/caio/dev/caioalonso.com/css/style.scss */
+
 ul.posts span.date {
-  font-size: 12px;
-  display: block;
-  height: 20px;
+  font-size:12px;
+  display:block;
+  height:20px;
 }
 
 @media only screen and (min-width: 662px) {
-  /* line 43, /home/caio/dev/caioalonso.com/css/style.scss */
   div.wrapper {
     margin: 0 auto;
-    width: 662px;
+    width:662px;
   }
 }
