@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Doing Things Right · Part 1 · Initial Setup
-permalink: /:title
+permalink: /:title.html
 ---
 
 This will be a series of texts explaining to a future me (and anyone that might find it useful) the decisions behind my attempt to have an organized and thought out electronic presence.

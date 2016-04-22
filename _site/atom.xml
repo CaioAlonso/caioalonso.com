@@ -4,7 +4,7 @@
   <title>Caio Alonso</title>
   <link href="http://caioalon.so/"/>
   <link type="application/atom+xml" rel="self" href="http://caioalon.so/atom.xml"/>
-  <updated>2016-04-22T17:44:12-03:00</updated>
+  <updated>2016-04-22T18:33:45-03:00</updated>
   <id>http://caioalon.so/</id>
   <author>
     <name>Caio Alonso</name>
@@ -14,7 +14,7 @@
   
   <entry>
     <id>http://caioalon.so/doing-things-right-part-1-initial-setup</id>
-    <link type="text/html" rel="alternate" href="http://caioalon.so/doing-things-right-part-1-initial-setup"/>
+    <link type="text/html" rel="alternate" href="http://caioalon.so/doing-things-right-part-1-initial-setup.html"/>
     <title>Doing Things Right · Part 1 · Initial Setup</title>
     <published>2016-04-22T00:00:00-03:00</published>
     <updated>2016-04-22T00:00:00-03:00</updated>
