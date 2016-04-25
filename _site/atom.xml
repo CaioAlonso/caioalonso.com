@@ -4,7 +4,7 @@
   <title>Caio Alonso</title>
   <link href="http://caioalon.so/"/>
   <link type="application/atom+xml" rel="self" href="http://caioalon.so/atom.xml"/>
-  <updated>2016-04-25T13:18:33-03:00</updated>
+  <updated>2016-04-25T17:51:42-03:00</updated>
   <id>http://caioalon.so/</id>
   <author>
     <name>Caio Alonso</name>
@@ -91,7 +91,7 @@ vim .ssh/authorized_keys
 
 &lt;p&gt;Disable root login and password login&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo vim /etc/ssh/ssh_config
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo vim /etc/ssh/sshd_config
     PermitRootLogin no
     ChallengeResponseAuthentication no
     PasswordAuthentication no

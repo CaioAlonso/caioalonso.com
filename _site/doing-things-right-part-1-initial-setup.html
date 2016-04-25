@@ -87,7 +87,7 @@ vim .ssh/authorized_keys
 
 <p>Disable root login and password login</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>sudo vim /etc/ssh/ssh_config
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo vim /etc/ssh/sshd_config
     PermitRootLogin no
     ChallengeResponseAuthentication no
     PasswordAuthentication no

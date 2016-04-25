@@ -58,7 +58,7 @@ That MOTD will get boring quickly, also tests if sudo is working
 
 Disable root login and password login
 
-    sudo vim /etc/ssh/ssh_config
+    sudo vim /etc/ssh/sshd_config
         PermitRootLogin no
         ChallengeResponseAuthentication no
         PasswordAuthentication no
