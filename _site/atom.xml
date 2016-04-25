@@ -4,7 +4,7 @@
   <title>Caio Alonso</title>
   <link href="http://caioalon.so/"/>
   <link type="application/atom+xml" rel="self" href="http://caioalon.so/atom.xml"/>
-  <updated>2016-04-22T18:33:45-03:00</updated>
+  <updated>2016-04-25T13:18:33-03:00</updated>
   <id>http://caioalon.so/</id>
   <author>
     <name>Caio Alonso</name>
@@ -40,7 +40,7 @@
 
 &lt;p&gt;Any VPS will do. Don’t go with a really cheap one because they tend to disappear. &lt;a href=&quot;https://ramnode.com/&quot;&gt;RamNode&lt;/a&gt; is the current choice.&lt;/p&gt;
 
-&lt;p&gt;For the distribution, Debian stretch/unstable is the current choice. Jessie/stable is too old and stretch seems stable enough.&lt;/p&gt;
+&lt;p&gt;For the distribution, Debian stretch/testing is the current choice. Jessie/stable is too old and stretch seems stable enough.&lt;/p&gt;
 
 &lt;p&gt;After getting everything online, this is what I did:&lt;/p&gt;
 

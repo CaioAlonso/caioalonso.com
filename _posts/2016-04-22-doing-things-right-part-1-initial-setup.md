@@ -21,7 +21,7 @@ The Server
 
 Any VPS will do. Don't go with a really cheap one because they tend to disappear. [RamNode](https://ramnode.com/) is the current choice.
 
-For the distribution, Debian stretch/unstable is the current choice. Jessie/stable is too old and stretch seems stable enough.
+For the distribution, Debian stretch/testing is the current choice. Jessie/stable is too old and stretch seems stable enough.
 
 After getting everything online, this is what I did:
 
