@@ -1,28 +1,4 @@
-<?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
- 
-  <title>Caio Alonso</title>
-  <link href="http://caioalonso.com/"/>
-  <link type="application/atom+xml" rel="self" href="http://caioalonso.com/atom.xml"/>
-  <updated>2017-01-19T23:55:33-02:00</updated>
-  <id>http://caioalonso.com/</id>
-  <author>
-    <name>Caio Alonso</name>
-    <email>caio@caioalonso.com</email>
-  </author>
-
-  
-  <entry>
-    <id>http://caioalonso.com/doing-things-right-part-1-initial-setup</id>
-    <link type="text/html" rel="alternate" href="http://caioalonso.com/doing-things-right-part-1-initial-setup.html"/>
-    <title>Doing Things Right · Part 1 · Initial Setup</title>
-    <published>2016-04-22T00:00:00-03:00</published>
-    <updated>2016-04-22T00:00:00-03:00</updated>
-    <author>
-      <name>Your Name</name>
-      <uri>http://caioalonso.com/</uri>
-    </author>
-    <content type="html">&lt;p&gt;This will be a series of texts explaining to a future me (and anyone that might find it useful) the decisions behind my attempt to have an organized and thought out electronic presence.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-19T23:55:33-02:00</updated><id>http://localhost:4000//</id><title type="html">Caio Alonso</title><entry><title type="html">Doing Things Right · Part 1 · Initial Setup</title><link href="http://localhost:4000/doing-things-right-part-1-initial-setup.html" rel="alternate" type="text/html" title="Doing Things Right · Part 1 · Initial Setup" /><published>2016-04-22T00:00:00-03:00</published><updated>2016-04-22T00:00:00-03:00</updated><id>http://localhost:4000/doing-things-right-part-1-initial-setup</id><content type="html" xml:base="http://localhost:4000/doing-things-right-part-1-initial-setup.html">&lt;p&gt;This will be a series of texts explaining to a future me (and anyone that might find it useful) the decisions behind my attempt to have an organized and thought out electronic presence.&lt;/p&gt;
 
 &lt;p&gt;I find this necessary because:&lt;/p&gt;
 
@@ -115,10 +91,4 @@ sudo systemctl start ntp
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;That’s it. You now have a working and relatively secure server. Next it’ll be getting my &lt;a href=&quot;https://git.caioalonso.com/dotphiles/&quot;&gt;dotfiles&lt;/a&gt; in place.&lt;/p&gt;
-</content>
-  </entry>
-  
- 
-</feed>
-<rights>Copyright © 2016, Caio Alonso</rights>
+&lt;p&gt;That’s it. You now have a working and relatively secure server. Next it’ll be getting my &lt;a href=&quot;https://git.caioalonso.com/dotphiles/&quot;&gt;dotfiles&lt;/a&gt; in place.&lt;/p&gt;</content><summary type="html">This will be a series of texts explaining to a future me (and anyone that might find it useful) the decisions behind my attempt to have an organized and thought out electronic presence.</summary></entry></feed>

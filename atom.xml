@@ -5,29 +5,29 @@ layout: null
 <feed xmlns="http://www.w3.org/2005/Atom">
  
   <title>Caio Alonso</title>
-  <link href="http://caioalon.so/"/>
-  <link type="application/atom+xml" rel="self" href="http://caioalon.so/atom.xml"/>
+  <link href="http://caioalonso.com/"/>
+  <link type="application/atom+xml" rel="self" href="http://caioalonso.com/atom.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://caioalon.so/</id>
+  <id>http://caioalonso.com/</id>
   <author>
     <name>Caio Alonso</name>
-    <email>caio@caioalon.so</email>
+    <email>caio@caioalonso.com</email>
   </author>
 
   {% for post in site.posts limit:10 %}
   <entry>
-    <id>http://caioalon.so{{ post.id }}</id>
-    <link type="text/html" rel="alternate" href="http://caioalon.so{{ post.url }}"/>
+    <id>http://caioalonso.com{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://caioalonso.com{{ post.url }}"/>
     <title>{{ post.title }}</title>
     <published>{{ post.date | date_to_xmlschema }}</published>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
       <name>Your Name</name>
-      <uri>http://caioalon.so/</uri>
+      <uri>http://caioalonso.com/</uri>
     </author>
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
   {% endfor %}
  
 </feed>
-<rights>Copyright © 2012, Caio Alonso</rights>
+<rights>Copyright © 2016, Caio Alonso</rights>

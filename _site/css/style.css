@@ -1,6 +1,6 @@
 body {
   margin-top:1em;
-  font: 1.313em/1.5em Georgia, serif;
+  font: 1.2em/1.5em Georgia, serif;
   color:#333;
   text-rendering:optimizeLegibility
 }
@@ -12,6 +12,14 @@ div.wrapper {
 
 h1 {
   font-size:26px;
+}
+
+h3 {
+  font-size:20px;
+}
+
+h4 {
+  font-size:14px;
 }
 
 a.email {
@@ -36,6 +44,17 @@ ul.posts span.date {
   font-size:12px;
   display:block;
   height:20px;
+}
+
+p.cv-definition {
+  text-align:right;
+  font:0.7em Georgia, serif;
+  width:60%;
+  padding-left:40%;
+}
+
+p.cv-definition span.word {
+  font-size:1.5em;
 }
 
 @media only screen and (min-width: 662px) {
