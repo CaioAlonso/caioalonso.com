@@ -4,120 +4,13 @@
   <title>Caio Alonso</title>
   <link href="http://caioalonso.com/"/>
   <link type="application/atom+xml" rel="self" href="http://caioalonso.com/atom.xml"/>
-  <updated>2017-11-12T00:53:25-02:00</updated>
+  <updated>2018-01-09T13:40:16-02:00</updated>
   <id>http://caioalonso.com/</id>
   <author>
     <name>Caio Alonso</name>
     <email>caio@caioalonso.com</email>
   </author>
 
-  
-  <entry>
-    <id>http://caioalonso.com/doing-things-right-part-1-initial-setup</id>
-    <link type="text/html" rel="alternate" href="http://caioalonso.com/doing-things-right-part-1-initial-setup.html"/>
-    <title>Doing Things Right · Part 1 · Initial Setup</title>
-    <published>2016-04-22T00:00:00-03:00</published>
-    <updated>2016-04-22T00:00:00-03:00</updated>
-    <author>
-      <name>Your Name</name>
-      <uri>http://caioalonso.com/</uri>
-    </author>
-    <content type="html">&lt;p&gt;This will be a series of texts explaining to a future me (and anyone that might find it useful) the decisions behind my attempt to have an organized and thought out electronic presence.&lt;/p&gt;
-
-&lt;p&gt;I find this necessary because:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Methodically logging what I am doing will force me to be less impulsive about changing things just for novelty’s sake;&lt;/li&gt;
-  &lt;li&gt;I’ll have one place to go if I need to reconfigure something or check if I missed some detail;&lt;/li&gt;
-  &lt;li&gt;A good exercise in discipline;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;These texts will be updated if I come up with new information.&lt;/p&gt;
-
-&lt;p&gt;A remote server seems currently needed to host this website, my email, my git repositories and everything else that may need to be backed up remotely or be executed constantly. I’ll begin by covering the setup of this server.&lt;/p&gt;
-
-&lt;h1 id=&quot;the-server&quot;&gt;The Server&lt;/h1&gt;
-
-&lt;p&gt;Any VPS will do. Don’t go with a really cheap one because they tend to disappear. &lt;a href=&quot;https://ramnode.com/&quot;&gt;RamNode&lt;/a&gt; is the current choice.&lt;/p&gt;
-
-&lt;p&gt;For the distribution, Debian stretch/testing is the current choice. Jessie/stable is too old and stretch seems stable enough.&lt;/p&gt;
-
-&lt;p&gt;After getting everything online, this is what I did:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh root@&amp;lt;IP&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Make sure I have an updated system&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;apt-get update
-apt-get upgrade
-apt-get dist-upgrade
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Install a few utilities that I’m sure I’l need&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;apt-get install vim curl tmux git zsh
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Create my main user to stop using root&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;adduser caio
-usermod -a caio -G sudo
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Setup my SSH key&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;su caio
-mkdir .ssh
-vim .ssh/authorized_keys
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Disconnect and check if it works&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh caio@&amp;lt;IP&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;That MOTD will get boring quickly, also tests if sudo is working&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo vim /etc/motd
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Disable root login and password login&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo vim /etc/ssh/sshd_config
-    PermitRootLogin no
-    ChallengeResponseAuthentication no
-    PasswordAuthentication no
-    UsePAM no
-sudo systemctl restart sshd
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Now NTP and the timezone&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo dpkg-reconfigure tzdata
-sudo apt-get install ntp
-sudo systemctl enable ntp
-sudo systemctl start ntp
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;And the locale&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo dpkg-reconfigure locales
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;That’s it. You now have a working and relatively secure server. Next it’ll be getting my &lt;a href=&quot;https://git.caioalonso.com/dotphiles/&quot;&gt;dotfiles&lt;/a&gt; in place.&lt;/p&gt;
-</content>
-  </entry>
   
  
 </feed>
