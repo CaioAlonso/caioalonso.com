@@ -4,11 +4,15 @@ layout: default
 
 {% unless site.posts.empty? %}
 <ul class="posts">
+  <li>
+    <span class="date"></span>
+    <a href="/cv.html">My Curriculum Vitæ</a>
+  </li>
   {% for post in site.posts %}
-    <li>
-      <span class="date">{{ post.date | date_to_string }}</span>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+  <li>
+    <span class="date">{{ post.date | date_to_string }}</span>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
   {% endfor %}
 </ul>
 {% endunless %}
