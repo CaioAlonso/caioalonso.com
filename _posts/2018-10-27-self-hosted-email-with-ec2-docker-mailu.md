@@ -4,7 +4,7 @@ title:  "Self-hosted email with EC2, Docker and Mailu"
 ---
 
 
-The steps I followed when setting up my own mail server:
+These are the steps I followed when setting up my own mail server.
 
 Fire up an Ubuntu EC2 instance, then:
 ```
