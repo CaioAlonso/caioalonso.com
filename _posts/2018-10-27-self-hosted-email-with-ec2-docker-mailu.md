@@ -70,7 +70,7 @@ sudo docker-compose run --rm admin python manage.py admin USERNAME DOMAIN PASSWO
 Test it with [mail-tester](https://www.mail-tester.com/).
 
 ### SPF
-Add a `TXT` record to your nameserver. Name:`caioalonso.com.` and content:`v=spf1 mx a:mail.caioalonso.com -all"`.
+Add a `TXT` record to your nameserver. Name `caioalonso.com.` and content `v=spf1 mx a:mail.caioalonso.com -all`.
 
 ### DMARC
 Go to your admin panel (https://`DOMAIN`/admin), then `Mail domains > the Details icon` and click `Regenerate keys`.
