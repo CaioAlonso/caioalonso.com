@@ -1,6 +1,6 @@
 body {
   margin-top:1em;
-  font: 1.2em/1.5em Georgia, serif;
+  font-family: Georgia, serif;
   color:#333;
   text-rendering:optimizeLegibility
 }
@@ -55,6 +55,11 @@ p.cv-definition {
 
 p.cv-definition span.word {
   font-size:1.5em;
+}
+
+code {
+	font-family:"Source Code Pro", "Lucida Console", Monaco, monospace;
+	font-size:12px;
 }
 
 @media only screen and (min-width: 662px) {
