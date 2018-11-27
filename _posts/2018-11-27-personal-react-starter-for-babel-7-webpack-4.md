@@ -92,4 +92,4 @@ module.exports = {
 };
 ```
 
-Now edit `src/index.html` and `src/index.js` however you'd like, run `npm run start` to start the dev server, run `npm run build` to compile it all into `dist`.
+Now edit `src/index.html` and `src/index.js` however you'd like, run `npm start` to start the dev server, run `npm run build` to compile it all into `dist`.
