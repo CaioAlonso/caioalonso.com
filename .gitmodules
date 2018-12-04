@@ -1,6 +1,0 @@
-[submodule "games"]
-	path = games
-	url = https://github.com/caioalonso/games
-[submodule "dolarnubank"]
-	path = dolarnubank
-	url = https://github.com/marcelod/dolarnubank.github.io
