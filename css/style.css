@@ -40,6 +40,10 @@ ul.posts {
 
 }
 
+ul.posts li {
+  margin-bottom:1rem;
+}
+
 ul.posts span.date {
   font-size:12px;
   display:block;
