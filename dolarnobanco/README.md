@@ -1,8 +1,8 @@
-# Dólar de Cartões de Crédito Lilás
+# Dólar de Cartões com dados do Banco Central
 
-O objetivo do site [caioalonso.com/dolarlilas](https://caioalonso.com/dolarlilas)
+O objetivo do site [caioalonso.com/dolarnobanco](https://caioalonso.com/dolarnobanco)
 é calcular o valor aproximado que vai aparecer na fatura quando for feita
-uma compra internacional usando um cartão de crédito da cor lilás.
+uma compra internacional usando um cartão de crédito.
 
 A seguir temos duas fórmulas. A primeira, que é justamente usada nesse site,
 mostra como calcular o valor na fatura considerando o valor da compra em dólares
@@ -32,7 +32,7 @@ Assim se calcula o valor final na fatura:
 Exemplo:
 
 Foi feita uma compra de US$ 25,00, com dólar PTAX a 3,7566.
-Considere o spread de 4,3%. Qual é o valor final na fatura do Nubank?
+Considere o spread de 4,3%. Qual é o valor final na fatura do cartão?
 
     V = 1,0638 * 1,043 * C * P
     V = 1,0638 * 1,043 * 25 * 3,7566
