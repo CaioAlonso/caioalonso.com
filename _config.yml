@@ -1,7 +1,0 @@
-title: Caio Alonso
-url: caioalonso.com
-email: caio@caioalonso.com
-exclude:
-  - vendor/
-
-markdown: kramdown
