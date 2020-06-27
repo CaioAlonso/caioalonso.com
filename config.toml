@@ -1,0 +1,7 @@
+baseURL = "https://caioalonso.com/"
+languageCode = "en-us"
+title = "Caio Alonso"
+theme = "caioalonso"
+
+[params]
+email = "caio@caioalonso.com"

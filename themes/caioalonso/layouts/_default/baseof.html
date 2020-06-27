@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ .Title }}</title>
+        {{ $resources := slice -}}
+        {{ $resources = $resources | append (resources.Get "css/main.css") -}}
+        {{ $css := $resources | resources.Concat "css/style.css" | minify }}
+        {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
+        {{ range .AlternativeOutputFormats -}}
+            {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+        {{ end -}}
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h2>
+            <a class="email" href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+            {{- block "main" . }}{{- end }}
+        </div>
+    </body>
+</html>

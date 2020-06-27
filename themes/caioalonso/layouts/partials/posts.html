@@ -1,0 +1,8 @@
+<ul class="posts">
+{{ range where site.RegularPages "Type" "in" site.Params.mainSections }}
+	<li>
+		<time>{{ .Date.Format "January 2, 2006" }}</time>
+		<a href="{{ .Permalink }}">{{- .Title -}}</a>
+	</li>
+{{ end }}
+</ul>

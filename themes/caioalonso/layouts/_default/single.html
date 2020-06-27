@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article>
+	<h2>{{ .Title }}</h2>
+	{{- if isset .Params "date" -}}
+		<time>{{ .Date.Format "January 2, 2006" }}</time>
+	{{- end -}}
+	{{- .Content -}}
+</article>
+{{ end }}
