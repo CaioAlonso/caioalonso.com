@@ -15,7 +15,7 @@
     </head>
     <body>
         <div class="wrapper">
-            <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h2>
+            <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
             <a class="email" href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
             {{- block "main" . }}{{- end }}
         </div>
