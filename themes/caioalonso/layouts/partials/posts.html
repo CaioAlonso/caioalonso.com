@@ -1,7 +1,7 @@
 <ul class="posts">
 {{ range where site.RegularPages "Type" "in" site.Params.mainSections }}
 	<li>
-		<time>{{ .Date.Format "January 2, 2006" }}</time>
+		<time datetime={{ .Date.Format "2006-01-02" }}>{{ .Date.Format "January 2, 2006" }}</time>
 		<a href="{{ .Permalink }}">{{- .Title -}}</a>
 	</li>
 {{ end }}

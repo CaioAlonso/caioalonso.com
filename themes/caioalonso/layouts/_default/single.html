@@ -2,7 +2,7 @@
 <article>
 	<h2>{{ .Title }}</h2>
 	{{- if isset .Params "date" -}}
-		<time>{{ .Date.Format "January 2, 2006" }}</time>
+		<time datetime={{ .Date.Format "2006-01-02" }}>{{ .Date.Format "January 2, 2006" }}</time>
 	{{- end -}}
 	{{- .Content -}}
 </article>
